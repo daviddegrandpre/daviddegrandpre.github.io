@@ -1,53 +1,136 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+
+
+
+
 <style>
-body {background-color:blue;}
-h1 {color: white;}
-h2{color: white;}
-p{color: white;}
-  ul {color: white;}
-</style> 
+body {background-color: rgb(38, 73, 92);}
+h1 {
+font-size: 50px;
+color: rgb(229, 229, 220);
+text-align: center;
+}
+.views {
+  color: rgb(229, 229, 220);
+  border: ridge 10px;
+  border-color: rgb(196, 163, 90);
+  width: 450px;
+  font-size: 15px;
+  font-style: italic;
+  margin-right: 5px;
+ 
+}
+ .animal {
+  border: ridge 10px rgb(196, 163, 90);
+  width: 450px;
+  color: rgb(229, 229, 220);
+  font-size: 15px;
+  font-style: italic ;
+  margin-left: 5px;
+   }
+ .food
+ {
+
+  border: ridge 10px rgb(196, 163, 90);width: 450px;
+  margin-left: 10px;
+  font-size: 15px; font-style: italic;
+  color: rgb(229, 229, 220);
+
+ }
+ .return {
+margin-top: 30px;
+position: absolute; 
+font-size: 25px;
+top: 50px;
+right: 60px;
+
+ }
+ .info {
+border: ridge 10px rgb(196, 163, 90);
+font-size: 20px; font-style: italic;
+color: rgb(229, 229, 220);
+position: absolute;
+bottom: 0px;
+padding-right: 10px;
+padding-left: 10px; 
+margin-left: 0px;
+max-width: 1390px;
+
+}
 
 
+
+.container {
+  margin-left: 45px;
+}
+ <!-- Tout ce code est du css pour ma page web, les bordurs, coleur, font, taille, et alligment. --!> 
+
+
+ 
+
+</style>  
   <meta charset="utf-8">
   <title>Mon Voyage</title>
 </head> 
 
 <body>
+  <div class="container" style="float: left;">
+    
+  
+   
+    
 
-  <h1> <strong>Mon Voyage</strong> </h1>
-<h2> Je verrais des scènes comme</h2>
-<p>
+<h1> Mon Voyage </h1>
+<div class="views" style="float: left;"><h2> Je verrais des scènes comme</h2>
+ <p>
 <ul>
-  <li> Des montange magnifique </li> <img src="https://www.rcinet.ca/canada-questions-en/wp-content/uploads/sites/19/2013/04/11-montages-bc-ab2.jpg" width="100" height="100"> <br> 
-  <li> L'ocean </li> <img src="data:image/jpeg;base64,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" width="100" height="100">
-  <li> Des ville vielle et rustique </li> <img src="https://where.ca/wp-content/uploads/2012/08/Peggys.jpg" width="100" height="100"> </ul>
-</p> <br> 
+  <li> Des montange magnifique! </li> <img src="https://www.rcinet.ca/canada-questions-en/wp-content/uploads/sites/19/2013/04/11-montages-bc-ab2.jpg" width="100" height="100"> <br> 
+  <li> L'ocean stupéfiant! </li> <img src="data:image/jpeg;base64,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" width="100" height="100">
+  <li> Des ville vielle et rustique just come dans les films! </li> <img src="https://where.ca/wp-content/uploads/2012/08/Peggys.jpg" width="100" height="100"> </ul>
+</p> <br> </div>
 
-  <h2>Et des animaux comme: </h2><br>
-  <p>
-  <ul> 
-    <li> Des baleine</li> <img src="https://images.unsplash.com/photo-1568430462989-44163eb1752f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80" height="100" width="100"><br>
-    <li> Des Méduses</li> <img src="http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRYIp8BHqGLA9lh-WdwlMTmTsmG6a84BgzwiGUeVaHjragACA0mQp4Ka0NjFoi8ucl_RS8hdOOIC-anHCf-roA" width="100" height="100">
-    <li> Des crabes </li> <img src="http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRiTNes7vmVjnhFPQlMms_07LX6l5fTxwpf70n5C7XyuY9WFJW7oFscFE9_SO3ZFKzx8wwJUcAC8MC9Y5qYY1k" width="100" height="100">
-  </ul>
-</p> <br>
+ 
 
-<h2> Manger de la nourriture come: </h2>
+
+
+ <div class="animal" style="float: left;"><h2> Et des animaux come: </h2>
 <p>
   <ul> 
-    <li> Du crabe frais </li> <img src="https://post.healthline.com/wp-content/uploads/2019/10/11355-Can_Pregnant_Women_Eat_Crab-_1200x628-facebook.jpg" height="100" width="100">
-    <li> Bar Nanimo </li> <img src="https://assets.blog.foodnetwork.ca/imageserve/wp-content/uploads/sites/6/2015/11/ultimate-nanaimo-bar/x.jpg" width="100" height="100">
-    <li> Le saumon frais </li> <img src="https://assets.blog.foodnetwork.ca/imageserve/wp-content/uploads/sites/6/2016/04/west-coast-cedar-planked-salmon/x.jpg" width="100" height="100">
+    <li> Des baleine!</li> <img src="https://images.unsplash.com/photo-1568430462989-44163eb1752f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80" height="100" width="100"><br>
+    <li> Des Méduses, fait attention! </li> <img src="http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRYIp8BHqGLA9lh-WdwlMTmTsmG6a84BgzwiGUeVaHjragACA0mQp4Ka0NjFoi8ucl_RS8hdOOIC-anHCf-roA" width="100" height="100">
+    <li> Des crabes, pince pince! </li> <img src="http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRiTNes7vmVjnhFPQlMms_07LX6l5fTxwpf70n5C7XyuY9WFJW7oFscFE9_SO3ZFKzx8wwJUcAC8MC9Y5qYY1k" width="100" height="100">
   </ul>
-</p>
-<p>
+</p> <br> </div>
 
-    <a href="index.html"> Retour </a> <br>
 
-  </p>
 
+
+
+<div class="food" style="float:left;"><h2> Manger de la nourriture come: </h2>
+<p> 
+  <ul> 
+    <li> Du crabe frais, hmm délicieux! </li> <img src="https://post.healthline.com/wp-content/uploads/2019/10/11355-Can_Pregnant_Women_Eat_Crab-_1200x628-facebook.jpg" height="100" width="100">
+    <li> Bar Nanimo fait au cafes fameux partout! </li> <img src="https://assets.blog.foodnetwork.ca/imageserve/wp-content/uploads/sites/6/2015/11/ultimate-nanaimo-bar/x.jpg" width="100" height="100">
+    <li> Le saumon frais, griller sur le BBQ! </li> <img src="https://assets.blog.foodnetwork.ca/imageserve/wp-content/uploads/sites/6/2016/04/west-coast-cedar-planked-salmon/x.jpg" width="100" height="100">
+  </ul>
+</p> <br> </div>
+
+
+
+  <div class="info"> <p>   
+Si vous ne l'aviez pas deviné maintenant, mon voyage parfait serait de revisiter la <em>Colombie-Britannique</em> et de voir toutes les belles scènes qui appartiennent uniquement à la belle province canadienne de la Colombie-Britannique. La Colombie-Britannique a un paysage magnifique avec les 
+  </p> </div class="info">
+
+
+ <div class="return"><p>
+
+    <a href="index.html" style="color: rgb(229, 229, 220);"> Retour </a> 
+
+  </p></div class="return">
+  </div class="container">
 
 </body>
 </html>
