@@ -1,0 +1,66 @@
+<style> 
+
+
+  body {
+background-color: rgb(28, 72, 92);
+ }
+ #picaboutme {
+border: ridge 15px rgb(196, 163, 90);
+border-radius: 50%;
+ }
+.part1aboutme {
+  color: rgb(229, 229, 220);
+     text-align: center;
+   align-items: center;
+   align-content: center;
+   font-style: italic;
+   font-size: 20px;
+
+}
+ .desc {
+  text-align: center;
+  list-style: inside;
+
+ }
+
+ .menu {
+  border: ridge 15px rgb(196, 163, 90);
+  max-width: fit-content;
+  position: fixed;
+  border-left: none;
+  top: 10px;
+  color: rgb(229, 229, 220);
+  margin-left: 0px;
+left: 0px;
+text-align: center;
+ }
+
+ .links {
+color: rgb(229, 229, 220);
+border: ridge 15px rgb(196, 163, 90);
+max-width: 35%;
+position: absolute;
+top: 250px;
+
+
+ }
+
+ .table 
+ {
+position: fixed;
+
+top: 250px;
+border: ridge 15px rgb(196, 163, 90 );
+min-width: 25%;
+max-width: 25%;
+left: 1050px;
+margin-right: 30px;
+color: rgb(229, 229, 220);
+ }
+
+
+ 
+ h1 {
+  color: rgb(229, 229, 220);
+ }
+</style>
