@@ -1,0 +1,66 @@
+<style>
+body {background-color: rgb(38, 73, 92);}
+h1 {
+font-size: 50px;
+color: rgb(229, 229, 220);
+text-align: center;
+}
+.views {
+  color: rgb(229, 229, 220);
+  border: ridge 10px;
+  border-color: rgb(196, 163, 90);
+  width: 450px;
+  font-size: 15px;
+  font-style: italic;
+  margin-right: 5px;
+ 
+}
+ .animal {
+  border: ridge 10px rgb(196, 163, 90);
+  width: 450px;
+  color: rgb(229, 229, 220);
+  font-size: 15px;
+  font-style: italic ;
+  margin-left: 5px;
+   }
+ .food
+ {
+
+  border: ridge 10px rgb(196, 163, 90);width: 450px;
+  margin-left: 10px;
+  font-size: 15px; font-style: italic;
+  color: rgb(229, 229, 220);
+
+ }
+ .return {
+margin-top: 30px;
+position: absolute; 
+font-size: 25px;
+top: 50px;
+right: 60px;
+
+ }
+ .info {
+border: ridge 10px rgb(196, 163, 90);
+font-size: 20px; font-style: italic;
+color: rgb(229, 229, 220);
+position: absolute;
+bottom: 0px;
+padding-right: 10px;
+padding-left: 10px; 
+margin-left: 0px;
+max-width: 1390px;
+
+}
+
+
+
+.container {
+  margin-left: 45px;
+}
+ <!-- Tout ce code est du css pour ma page web, les bordurs, coleur, font, taille, et alligment. --!> 
+
+
+ 
+
+</style>  
