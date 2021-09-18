@@ -1,0 +1,46 @@
+<style>
+        h1 {
+            font-size: 50px;
+            color: rgb(229, 229, 220);
+        }
+
+        .return-link {
+            font-size: 20px;
+            text-align: center;
+            color: rgb(229, 229, 220);
+
+
+
+        }
+
+       
+            .poeme-lyrics { border: 15px;
+                border-style: ridge;
+                border-color: rgb(196, 163, 90);  
+                width: 500px;
+                margin: auto;
+                color: rgb(229, 229, 220);
+                font-size: 30px;
+                font-style: italic;
+                }
+
+
+
+            
+            
+            body {background-color: rgb(38, 73, 92);
+                text-align: center;
+          }
+
+          .return {
+            position: absolute;
+            left: 960px;
+            top: 100px;
+
+          }
+
+
+          
+            
+
+        </style>
