@@ -23,6 +23,7 @@ text-align: center;
   margin-right: 5px;
  
 }
+
  
 .container {
   margin-left: 45px;
@@ -48,12 +49,46 @@ text-align: center;
 <div class="views" style="float: left;"><h2>  Mes travail</h2>
  <p>
 <ul>
-  <li> Travail 1 </li> <a href="Travail1.js"> Travail 1</a> <br> 
-  <li> Travail 2 </li> <a href="Travail2.js"> Travail 2 </a> <br>
-  <li> Travail 3 </li> <a href="Travail3.ja"> Travail 3</a> <br> 
-</p> <br> </div>
+  
 
+   <li> <a onclick="var largeur = prompt ('Choisi la largeur de ta pizza!');
+alert('Tu a choisi la largeur ' + largeur + '!!');
+var airDePizza =  (largeur**2)*3.14;
+alert('La air est ' + airDePizza + ' pouce');
+var volumeDeBoite = (largeur+2**2)*3;
+alert('La volume de la boite est ' + volumeDeBoite + ' pouces carré');
+" href="travail.html"> Travail 1 </a> </li>  <br>
+  
+
+  <li> <a href="Travail2.html"> Travail 2 </a> </li> <br>
+</p> <br> </div>
+<div id="divAffiche"> 
+  <h1></h1>
+</div>
+ <script> 
+var reponse =(prompt("Donne une opreration"));
+var num1 =parseInt(prompt("Nombre 1"));
+var num2 =parseInt(prompt("Nombre 2"));
+function calcul(num1,num2) {
+ var op1 = (num1+num2);
+ var op2 = (num1-num2);
+ var op3 = (num1*num2);
+ var op4 = (num1/num2);
+ var op5 = (num1%num2);
  
+var affiche=document.getElementById("divAffiche") 
+if(reponse=="op1"){
+  alert(op1);
+} else if (reponse=="op2") {
+  alert(op2);
+} else if (reponse=="op3"){
+  alert(op3);
+} else if (reponse=="op4"){
+  alert(op4);
+} else if (reponse=="op5"){
+  alert(op5); } }
+
+ </script>
 
 
 
